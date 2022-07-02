@@ -1,0 +1,7 @@
+require('config.lualine')
+require('config.treesitter')
+require('config.nvim-tree-config')
+require('config.delimitMate')
+require('config.neoformat')
+require('config.goyo')
+require('config.lsp-config-setup')
