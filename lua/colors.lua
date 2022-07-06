@@ -21,11 +21,11 @@ g.material_style = 'darker'
 
 g.codedark_conservative = 0
 
-gruvbox()
+-- gruvbox()
 
--- cmd 'colorscheme codedark'
+cmd 'colorscheme codedark'
 
--- cmd_nvim 'highlight CursorLine guibg=#2b2b2b'
--- cmd_nvim 'highlight CursorColumn guibg=#2b2b2b'
--- cmd_nvim 'highlight Normal ctermbg=none guibg=none'
--- cmd_nvim 'highlight EndOfBuffer ctermbg=none guibg=none'
+cmd_nvim 'highlight CursorLine guibg=#2b2b2b'
+cmd_nvim 'highlight CursorColumn guibg=#2b2b2b'
+cmd_nvim 'highlight Normal ctermbg=none guibg=none'
+cmd_nvim 'highlight EndOfBuffer ctermbg=none guibg=none'

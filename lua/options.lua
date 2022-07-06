@@ -28,6 +28,8 @@ opt.colorcolumn = "80"
 
 -- vim.cmd [[ set guicursor= ]]
 
+vim.cmd [[ set mouse=a ]]
+
 vim.api.nvim_create_autocmd("BufWritePre", {
     pattern = "*.py",
     callback = function()
